@@ -1,9 +1,9 @@
-import React from 'react'
+import Events from "../modules/Events/Events";
 
-const page = () => {
+export default function Home() {
   return (
-  <div>Hello</div>
-  )
+    <main>
+      <Events />
+    </main>
+  );
 }
-
-export default page
